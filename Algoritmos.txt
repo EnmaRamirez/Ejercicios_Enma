@@ -1,0 +1,44 @@
+//Enma Leticia Ramírez Castro
+Carnet: 0907-23-18206
+Sección “B”
+1)	Primer ejercicio en el programa de Psein que determina al usuario si el numero ingresado es primo o no.
+
+
+Algoritmo Numero_primo
+	Escribir "Ingrese un numero"
+	Leer e
+	
+	Verificar <- 0
+	Para i <- 1 Hasta e Hacer
+		Si e%i= 0 Entonces
+			Verificar <- Verificar +1
+	
+		FinSi
+	FinPara
+	Si Verificar= 2 Entonces 
+		Escribir e, "Si es un numero primo"
+	SiNo
+		Escribir e, "No es un numero primo"
+			
+		
+	FinSi
+	
+FinAlgoritmo
+
+_____________________________________________________________________________________________________
+
+//2)	Segundo ejercicio que muestra si el año es bisiesto o no.
+
+Algoritmo Año_bisiesto
+	Definir E como entero;
+	Escribir Sin saltar "AÑO: ";
+	Leer E; 
+	
+	Si ((E MOD 4)=0 Y (E MOD 100)<>0 o (E MOD 400)=0) Entonces
+		Escribir "AÑO BISIESTO";
+		SiNo
+		Escribir "AÑO NO BISIESTO";
+	FinSi
+	
+	
+FinAlgoritmo
